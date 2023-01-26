@@ -33,4 +33,4 @@ public class SameLabel {
         currSubtree[labels.charAt(currNode) -'a']++;
         ans[currNode] = currSubtree[labels.charAt(currNode) - 'a'];
         return currSubtree;
-}
+    }
